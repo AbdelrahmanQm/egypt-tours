@@ -1,9 +1,11 @@
 import "./App.css";
+import NavFull from "./components/navigation/nav-full";
 
 function App() {
   return (
     <>
-      <h1 className="text-yellow">Hello World</h1>
+      <NavFull />
+      <h1 className="text-3xl ">Hello World</h1>
     </>
   );
 }

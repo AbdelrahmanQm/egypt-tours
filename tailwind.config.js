@@ -20,7 +20,11 @@ export default {
       white: "#ffffff",
       lightgray: "#d3dce6",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ["Josefin Sans"],
+      },
+    },
   },
   plugins: [],
 };
