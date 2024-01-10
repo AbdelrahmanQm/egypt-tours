@@ -6,11 +6,11 @@ import NavLogo from "./nav-logo";
 const NavFull = () => {
   return (
     <>
-      <nav>
-        <div>
+      <nav className="h-20  flex justify-between items-center">
+        <div className="h-full">
           <NavLogo />
         </div>
-        <div>
+        <div className="w-full">
           <NavLinks />
         </div>
         <div>

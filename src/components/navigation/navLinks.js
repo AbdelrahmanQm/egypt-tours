@@ -1,5 +1,27 @@
 export const navLinksData = [
-  { name: "link1" },
-  { name: "link2" },
-  { name: "link3" },
+  { name: "Home", href: "#" },
+  {
+    name: "Travel",
+    href: "#",
+    subLinks: [
+      {
+        subLinkName: "Destinations",
+        subLinkHref: "#",
+      },
+      {
+        subLinkName: "Packages",
+        subLinkHref: "#",
+      },
+      {
+        subLinkName: "Day Tours",
+        subLinkHref: "#",
+      },
+      {
+        subLinkName: "Activities",
+        subLinkHref: "#",
+      },
+    ],
+  },
+  { name: "Blog", href: "#" },
+  { name: "Contact Us", href: "#" },
 ];
