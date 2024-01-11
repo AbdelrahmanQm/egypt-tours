@@ -4,7 +4,7 @@ import NavSearch from "./nav-search";
 
 const NavExtra = () => {
   return (
-    <div className="flex gap-x-2">
+    <div className="flex gap-x-6">
       <NavSideMenuBtn />
       <NavSearch />
     </div>

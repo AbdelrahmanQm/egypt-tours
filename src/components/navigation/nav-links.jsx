@@ -3,13 +3,11 @@ import NavLink from "./nav-link";
 import { navLinksData } from "./navLinks";
 const NavLinks = () => {
   return (
-    <div>
-      <ul className="flex justify-around ">
-        {navLinksData.map((link, i) => (
-          <NavLink key={i} link={link} />
-        ))}
-      </ul>
-    </div>
+    <ul className="flex justify-around items-center gap-24 h-full ">
+      {navLinksData.map((link, i) => {
+        return <NavLink key={i} link={link} />;
+      })}
+    </ul>
   );
 };
 
