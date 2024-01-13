@@ -1,5 +1,5 @@
 import React from "react";
-import NavSideMenuBtn from "../nav-side-menu-btn";
+import NavSideMenuBtn from "./nav-side-menu-btn";
 import NavSearch from "./nav-search";
 
 const NavExtra = () => {
