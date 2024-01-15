@@ -3,12 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      sm: "480px",
+      sm: "0px",
+      xmd: "480px",
       md: "768px",
       lg: "976px",
       xl: "1440px",
     },
     colors: {
+      beige: "#f1dbb7",
       yellow: "#faab36",
       orange: "#f78104",
       red: "#fd5901",
