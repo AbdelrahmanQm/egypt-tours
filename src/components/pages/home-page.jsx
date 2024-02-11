@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../hero-section/hero-section";
 import NavFull from "../navigation/nav-full";
+import TestSection from "./test-section";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,9 @@ const HomePage = () => {
         </div>
         <div className="z-0 relative">
           <HeroSection />
+        </div>
+        <div>
+          <TestSection />
         </div>
       </div>
     </div>
